@@ -24,17 +24,17 @@ body {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  margin-left: 70%;
+  margin-left: 3%;
   width: 100%;
 }
 
 .my-name {
-  margin-left: 48%;
+  margin-left: 3%;
   width: 100%;
 }
 
 #job-title {
-  margin-left: 48%;
+  margin-left: 3%;
   width: 100%;
 }
 
@@ -148,6 +148,31 @@ img::selection {
 
 img::-moz-selection {
   background: transparent;
+}
+
+@media (min-width: 768px) {
+  .team-member {
+    margin-left: 95%;
+    width: 100%;
+  }
+  .my-name {
+    margin-left: 25%;
+  }
+  #job-title {
+    margin-left: 25%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .team-member {
+    margin-left: 112%;
+  }
+  .my-name {
+    margin-left: 2%;
+  }
+  #job-title {
+    margin-left: 1%;
+  }
 }
 
 #mainNav {
