@@ -3,6 +3,38 @@ body {
   overflow-x: hidden;
   @include body-font;
 }
+.mx-auto {
+  margin-right: -10%;
+}
+
+.team-member {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 70%;
+  // height: 40rem;
+  width: 100%;
+}
+.my-name {
+  margin-left: 48%;
+  width: 100%;
+}
+#job-title {
+  margin-left: 48%;
+  width: 100%;
+}
+
+.span-stuff {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  // padding: 1rem;
+}
+
+.social-buttons {
+  margin-left: 58%;
+  width: 100%;
+}
 
 p {
   line-height: 1.75;
